@@ -26,5 +26,10 @@ The CPP file contains the questions as well as the solution.
 - [Binary Search](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/10.%20binarySearch.cpp)
 - [Subsets if an Array](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/11.%20subsets.cpp)
 - [Print Subsets](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/12.%20printSubsets.cpp)
+- [Return Subsets Sum](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/13.%20subsetstosum.cpp)
+- [Return Subsets Sum](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/14.%20printSubsetsSumtoK.cpp)
+- [Return Codes](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/15.%20returncodes.cpp)
+- [Print Codes](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/16.%20printCodes.cpp)
+- [Return Permutations](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/17.%20returnPermutations.cpp)
 
 Please feel free to add your changes to the repo
