@@ -21,5 +21,10 @@ The CPP file contains the questions as well as the solution.
 - [Replace Pi](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/5.%20replacePI.cpp)
 - [Remove X](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/6.%20removeX.cpp)
 - [Pair Star](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/7.%20pairStar.cpp)
+- [Check AB](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/8.%20checkAB.cpp)
+- [Staircase Steps](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/9.%20staircaseSteps.cpp)
+- [Binary Search](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/10.%20binarySearch.cpp)
+- [Subsets if an Array](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/11.%20subsets.cpp)
+- [Print Subsets](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/12.%20printSubsets.cpp)
 
 Please feel free to add your changes to the repo
