@@ -31,5 +31,10 @@ The CPP file contains the questions as well as the solution.
 - [Return Codes](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/15.%20returncodes.cpp)
 - [Print Codes](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/16.%20printCodes.cpp)
 - [Return Permutations](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/17.%20returnPermutations.cpp)
-
+- [Replace Characters](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/18.%20replaceChars.cpp)
+- [Merge Sort](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/18.%20replaceChars.cpp)
+- [Quick Sort](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/20.%20quickSort.cpp)
+- [String Subsequences](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/21.%20strSubsequences.cpp)
+- [Keypad Combination](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/22.%20keypadCombination.cpp)
+- [Print String Subsequences](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/23.%20strSubsequencesprint.cpp)
 Please feel free to add your changes to the repo
