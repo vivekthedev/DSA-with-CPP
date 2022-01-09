@@ -37,6 +37,13 @@ The CPP file contains the questions as well as the solution.
 - [String Subsequences](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/21.%20strSubsequences.cpp)
 - [Keypad Combination](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/22.%20keypadCombination.cpp)
 - [Print String Subsequences](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/23.%20strSubsequencesprint.cpp)
+- [Print Keypad Combinations](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/24.%20keypadCombinationprint.cpp)
+- [Find Array Sum](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/25.%20findArrSum.cpp)
+- [Find Number](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/26.%20findNum.cpp)
+- [First Index](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/27.%20firstIndex.cpp)
+- [String to Int](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/28.%20strtoInt.cpp)
+- [Geometric Sum](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/3.%20geometricSum.cpp)
+- [Check Palindrome](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/4.%20checkPalindrome.cpp)
 
 
 Please feel free to add your changes to the repo
