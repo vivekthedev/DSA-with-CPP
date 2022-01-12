@@ -14,7 +14,7 @@ Line 3 : x (element to be searched)
 
 Sample Input :
 6
-2 3 4 5 6 8 
+2 3 4 5 6 8
 5
 
 Sample Output:
@@ -26,27 +26,24 @@ Sample Output:
 using namespace std;
 int binarySearch(int nums[], int num, int start, int end)
 {
-    int mid = start + end / 2;
-    if (nums[mid] == num)
+
+    if (start <= end)
     {
-        return mid;
+
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == num)
+            return mid;
+        else if (nums[mid] > num)
+            return binarySearch(nums, num, start, mid - 1);
+        return binarySearch(nums, num, mid + 1, end);
     }
-    if (nums[mid] > num)
-    {
-        binarySearch(nums, num, start, mid - 1);
-    }
-    if (nums[mid] < num)
-    {
-        binarySearch(nums, num, mid + 1, end);
-    }
+
+    return -1;
 }
 int main()
 {
-    int size, num, nums[200] = {2, 56, 78, 123, 8589, 43222};
-    cin >> size;
-    // string data;
-    // getline(cin, data);
-    cin >> num;
+    int size = 6, num = 75, nums[200] = {2, 56, 78, 123, 8589, 43222};
+
     cout << binarySearch(nums, num, 0, size - 1);
     return 0;
 }
