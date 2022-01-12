@@ -42,7 +42,7 @@ int binarySearch(int nums[], int num, int start, int end)
 }
 int main()
 {
-    int size = 6, num = 75, nums[200] = {2, 56, 78, 123, 8589, 43222};
+    int size = 10, num = 48, nums[200] = {7, 14, 22, 36, 38, 43, 47, 68, 71, 86};
 
     cout << binarySearch(nums, num, 0, size - 1);
     return 0;
