@@ -45,7 +45,7 @@ The CPP file contains the questions as well as the solution.
 - [Geometric Sum](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/3.%20geometricSum.cpp)
 - [Check Palindrome](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Recursion/4.%20checkPalindrome.cpp)
 
-###Test 1
+### Test 1
 - [MCQ Question 1](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Test%201/1.%20Complexity.txt)
 - [MCQ Question 2](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Test%201/2.%20Recurrence_Relation.txt)
 - [MCQ Question 3](https://github.com/vivekthedev/DSA-Coding-Ninjas/blob/main/Test%201/3.%20Complexity_2.txt)
