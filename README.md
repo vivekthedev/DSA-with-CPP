@@ -1,5 +1,4 @@
-# DSA-Coding-Ninjas
-DSA Problems in Coding Ninjas Course using C++
+# DSA Questions using C++
 
 The CPP file contains the questions as well as the solution.
 
