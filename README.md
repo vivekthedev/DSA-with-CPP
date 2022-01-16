@@ -51,5 +51,14 @@ The CPP file contains the questions as well as the solution.
 - [Does Contain Text](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Test%201/4_doesContainText.cpp)
 - [Maximum Profit](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Test%201/5_maximumProfit.cpp)
 
+### Object Oriented Programming
+- [Creating a Class and Objects](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/1_class.cpp)
+- [Getters and Setters](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/2_gettersAndSetters.cpp)
+- [Constructors and Destructors](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/3_constructorsAndDestructors.cpp)
+- [Types of Constructors]
+- [Shallow Copy & Deep Copy]
+- [Initialization List]
+- [Static Members]
+
 
 Please feel free to add your changes to the repo
