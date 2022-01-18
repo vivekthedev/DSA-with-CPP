@@ -5,6 +5,7 @@ The CPP file contains the questions as well as the solution.
 ## Index
 
 ### Arrays
+
 - [Unique Element](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Array/1.%20uniqueElementxor.cpp)
 - [Duplicate Element](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Array/2.%20duplicateElement.cpp)
 - [Intersection Array](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Array/3.%20intersectionArray.cpp)
@@ -13,6 +14,7 @@ The CPP file contains the questions as well as the solution.
 - [Rotate Array](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Array/6.%20rotateArray.cpp)
 
 ### Recursion
+
 - [Multiply with Recursion](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Recursion/1.%20multUsingRecursion.cpp)
 - [Count Zeroes](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Recursion/2.%20countZeroes.cpp)
 - [Geometric Sum](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Recursion/3.%20geometricSum.cpp)
@@ -45,6 +47,7 @@ The CPP file contains the questions as well as the solution.
 - [Check Palindrome](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Recursion/4.%20checkPalindrome.cpp)
 
 ### Test 1
+
 - [MCQ Question 1](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Test%201/1.%20Complexity.txt)
 - [MCQ Question 2](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Test%201/2.%20Recurrence_Relation.txt)
 - [MCQ Question 3](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Test%201/3.%20Complexity_2.txt)
@@ -52,13 +55,13 @@ The CPP file contains the questions as well as the solution.
 - [Maximum Profit](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Test%201/5_maximumProfit.cpp)
 
 ### Object Oriented Programming
+
 - [Creating a Class and Objects](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/1_class.cpp)
 - [Getters and Setters](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/2_gettersAndSetters.cpp)
 - [Constructors and Destructors](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/3_constructorsAndDestructors.cpp)
-- [Types of Constructors]
-- [Shallow Copy & Deep Copy]
-- [Initialization List]
-- [Static Members]
-
+- [Types of Constructors]()
+- [Shallow Copy & Deep Copy]()
+- [Initialization List]()
+- [Static Members]()
 
 Please feel free to add your changes to the repo
