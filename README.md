@@ -62,6 +62,7 @@ The CPP file contains the questions as well as the solution.
 - [Types of Constructors]()
 - [Shallow Copy & Deep Copy]()
 - [Initialization List]()
+- [Constant Functions]()
 - [Static Members]()
 
 Please feel free to add your changes to the repo
