@@ -61,8 +61,8 @@ The CPP file contains the questions as well as the solution.
 - [Constructors and Destructors](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/3_constructorsAndDestructors.cpp)
 - [Types of Constructors]()
 - [Shallow Copy & Deep Copy]()
-- [Initialization List]()
 - [Constant Functions]()
+- [Initialization List]()
 - [Static Members]()
 
 Please feel free to add your changes to the repo
