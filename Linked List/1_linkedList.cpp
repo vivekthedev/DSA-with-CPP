@@ -47,6 +47,28 @@ Node *takeInput()
     return head;
 }
 
+// Insert at nth position
+Node *insert(int data, Node *head, int j)
+{
+    Node *newNode = new Node(data);
+    Node *temp = head;
+    int count = 0;
+    if (j == 0)
+    {
+        newNode->next = head;
+        head = newNode;
+        return head;
+    }
+    while (count++ < j - 1 && temp != NULL)
+    {
+
+        temp = temp->next;
+    }
+
+    Node *a = temp->next;
+    temp->next = newNode;
+    newNode->next = a;
+}
 int main()
 {
     // Statically
