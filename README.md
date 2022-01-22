@@ -59,10 +59,15 @@ The CPP file contains the questions as well as the solution.
 - [Creating a Class and Objects](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/1_class.cpp)
 - [Getters and Setters](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/2_gettersAndSetters.cpp)
 - [Constructors and Destructors](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/3_constructorsAndDestructors.cpp)
-- [Types of Constructors]()
-- [Shallow Copy & Deep Copy]()
-- [Constant Functions]()
-- [Initialization List]()
-- [Static Members]()
+- [Types of Constructors](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/4_typesOfConstructors.cpp)
+- [Shallow Copy & Deep Copy](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/5_shallowDeepCopy.cpp)
+- [Constant Functions](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/6_ConstantFunctions.cpp)
+- [Initialization List](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/7_initialisationList.cpp)
+- [Static Members](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/9_staticMembers.cpp)
+- [Dynamic Array](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/11_dynamicArray.cpp)
+- [Operator Overloading](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/10_operatorOverloading.cpp)
+
+### Linked List
+- [Linked List](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/1_linkedList.cpp)
 
 Please feel free to add your changes to the repo
