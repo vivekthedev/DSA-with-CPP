@@ -68,6 +68,25 @@ Node *insert(int data, Node *head, int j)
     Node *a = temp->next;
     temp->next = newNode;
     newNode->next = a;
+    return head;
+}
+
+Node *deleteElement(int i, Node *head)
+{
+    if (i == 0)
+    {
+        head = head->next;
+        return head;
+    }
+    Node *temp = head;
+    int count = 0;
+    while (count++ < i - 2)
+    {
+        temp = temp->next;
+    }
+    Node *del = temp->next;
+    temp->next = del->next;
+    delete del;
 }
 int main()
 {
