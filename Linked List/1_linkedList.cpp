@@ -18,7 +18,7 @@ void print(Node *head)
     Node *temp = head;
     while (temp != NULL)
     {
-        cout << temp->data;
+        cout << temp->data << " ";
         temp = temp->next;
     }
 }
@@ -103,16 +103,45 @@ Node *inserRecusrsive(int data, Node *head, int i)
     }
     return head;
 }
+
+Node *deleteRecursive(int i, Node *head)
+{
+    if (head == NULL)
+    {
+        return NULL;
+    }
+    if (i == 0)
+    {
+        return head;
+    }
+    if (i == 1)
+    {
+        Node *newAdd = head->next;
+        delete head;
+        return newAdd;
+    }
+    else
+    {
+        head->next = deleteRecursive(i - 1, head->next);
+    }
+    return head;
+}
 int main()
 {
-    // Statically
-    Node n1(1);
-    Node *head = &n1;
-    Node n2(2);
-    n1.next = &n2; // Two nodes are connected
-    // Dynamically
-    Node *n3 = new Node(10);
-    Node *n4 = new Node(20);
-    n3->next = n4;
+    // // Statically
+    // Node n1(1);
+    // Node *head = &n1;
+    // Node n2(2);
+    // n1.next = &n2; // Two nodes are connected
+
+        // // Dynamically
+    // Node *n3 = new Node(10);
+    // Node *n4 = new Node(20);
+    // n3->next = n4;
+    Node *head = takeInput();
+    print(head);
+    cout << "\n\n";
+    head = deleteRecursive(3, head);
+    print(head);
     return 0;
 }
