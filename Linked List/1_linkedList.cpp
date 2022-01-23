@@ -88,6 +88,21 @@ Node *deleteElement(int i, Node *head)
     temp->next = del->next;
     delete del;
 }
+
+Node *inserRecusrsive(int data, Node *head, int i)
+{
+    if (head == NULL || i == 0)
+    {
+        Node *newNode = new Node(data);
+        newNode->next = NULL;
+        head = newNode;
+    }
+    else
+    {
+        head->next = inserRecusrsive(data, head->next, i - 1);
+    }
+    return head;
+}
 int main()
 {
     // Statically
