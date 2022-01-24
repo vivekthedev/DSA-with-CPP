@@ -68,6 +68,13 @@ The CPP file contains the questions as well as the solution.
 - [Operator Overloading](https://github.com/vivekthedev/DSA-with-CPP/blob/main/OOPS/10_operatorOverloading.cpp)
 
 ### Linked List
+
 - [Linked List](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/1_linkedList.cpp)
+- [Linked List: Take Input]()
+- [Linked List: Insert Element at nth position]()
+- [Linked List: Delete Element at nth position]()
+- [Linked List: Insert Recursively]()
+- [Linked List: Delete Recursively]()
+- [Linked List: Find ELement]()
 
 Please feel free to add your changes to the repo
