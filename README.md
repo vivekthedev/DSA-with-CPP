@@ -74,7 +74,7 @@ The CPP file contains the questions as well as the solution.
 - [Linked List: Take Input](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L26)
 - [Linked List: Insert Element at nth position](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L51)
 - [Linked List: Delete Element at nth position](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L74)
-- [Linked List: Insert Recursively]https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L92()
+- [Linked List: Insert Recursively](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L92)
 - [Linked List: Delete Recursively](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L123)
 - [Linked List: Find ELement](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L107)
 
