@@ -104,6 +104,22 @@ Node *inserRecusrsive(int data, Node *head, int i)
     return head;
 }
 
+int findElement(int i, Node *head)
+{
+    int a = 0;
+    Node *temp = head;
+    while (temp->next != NULL)
+    {
+        if (temp->data == i)
+        {
+            return a;
+        }
+        a++;
+        temp = temp->next;
+    }
+    return -1;
+}
+
 Node *deleteRecursive(int i, Node *head)
 {
     if (head == NULL)
@@ -134,14 +150,16 @@ int main()
     // Node n2(2);
     // n1.next = &n2; // Two nodes are connected
 
-        // // Dynamically
+    // // Dynamically
     // Node *n3 = new Node(10);
     // Node *n4 = new Node(20);
     // n3->next = n4;
     Node *head = takeInput();
     print(head);
     cout << "\n\n";
-    head = deleteRecursive(3, head);
-    print(head);
+    // head = deleteRecursive(3, head);
+    // print(head);
+    cout << "\n"
+         << findElement(15, head);
     return 0;
 }
