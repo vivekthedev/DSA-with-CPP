@@ -77,5 +77,6 @@ The CPP file contains the questions as well as the solution.
 - [Linked List: Insert Recursively](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L92)
 - [Linked List: Delete Recursively](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L123)
 - [Linked List: Find ELement](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L107)
-
-Please feel free to add your changes to the repo
+- [Find Element in a list]()
+- [Last Node to FIrst]()
+  Please feel free to add your changes to the repo
