@@ -80,5 +80,6 @@ The CPP file contains the questions as well as the solution.
 - [Find Element in a list](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/3_lastNodesToFirst.cpp)
 - [Last Node to First](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/3_lastNodesToFirst.cpp)
 - [Remove Duplicates Elements](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/4_eliminateDuplicates.cpp)
+- [Find Mid Element](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/6_midElement.cpp)
 
 ## Please feel free to add your changes to the repo
