@@ -65,25 +65,3 @@ int main()
     head = takeInput();
     cout << midElement(head);
 }
-/*
-1 2 3 4 5 6 7 8
-s
-f
-
-1 2 3 4 5 6 7 8
-  s
-    f
-
-1 2 3 4 5 6 7 8
-    s
-        f
-
-1 2 3 4 5 6 7 8
-      s
-            f
-
-1 2 3 4 5 6 7 8
-        s
-            f
-
-*/
