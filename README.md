@@ -82,5 +82,7 @@ The CPP file contains the questions as well as the solution.
 - [Remove Duplicates Elements](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/4_eliminateDuplicates.cpp)
 - [Find Mid Element](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/7_midElement.cpp)
 - [Merge Elements](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/6_mergeLinkedList.cpp)
+- [Reverse Linked List - Recursive](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/9_reverseLinkedList.cpp)
+- [Reverse Linked List - Iterative](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/11_reverseLinkedListIterative.cpp)
 
 ## Please feel free to add your changes to the repo
