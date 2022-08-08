@@ -15,7 +15,7 @@ Constraints :
 1 <= n <= 10^3
 
 Sample Input 1 :
-6 
+6
 2 6 8 5 4 3
 
 Sample Output 1 :
@@ -79,7 +79,6 @@ int main()
 {
     int a[] = {22, 23, 112, 2, 45, 78};
     mergeSort(a, 0, 5);
-    // mergeArr(a, 0, 2, 5);
 
     for (int i = 0; i <= 5; i++)
     {
