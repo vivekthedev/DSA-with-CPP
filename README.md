@@ -76,7 +76,7 @@ The CPP file contains the questions as well as the solution.
 - [Linked List: Delete Element at nth position](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L74)
 - [Linked List: Insert Recursively](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L92)
 - [Linked List: Delete Recursively](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L123)
-- [Linked List: Find ELement](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L107)
+- [Linked List: Find ELement - Iterative](https://github.com/vivekthedev/DSA-with-CPP/blob/43a4ea630a566d75deea588889234949a016ab18/Linked%20List/1_linkedList.cpp#L107)
 - [Find Element in a list](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/3_lastNodesToFirst.cpp)
 - [Last Node to First](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/3_lastNodesToFirst.cpp)
 - [Remove Duplicates Elements](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/4_eliminateDuplicates.cpp)
@@ -84,5 +84,6 @@ The CPP file contains the questions as well as the solution.
 - [Merge Elements](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/6_mergeLinkedList.cpp)
 - [Reverse Linked List - Recursive](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/9_reverseLinkedList.cpp)
 - [Reverse Linked List - Iterative](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/11_reverseLinkedListIterative.cpp)
+- [Find a Node - Recursive](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/12_findANodeRecursive.cpp)
 
 ## Please feel free to add your changes to the repo
