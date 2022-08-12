@@ -86,5 +86,6 @@ The CPP file contains the questions as well as the solution.
 - [Reverse Linked List - Iterative](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/11_reverseLinkedListIterative.cpp)
 - [Find a Node - Recursive](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/12_findANodeRecursive.cpp)
 - [Even After Odd](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/13_EvenAfterOdd.cpp)
+- [Delete every N node](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/14_deleteEvery_n_node.cpp)
 
 ## Please feel free to add your changes to the repo
