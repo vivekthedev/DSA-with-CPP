@@ -29,7 +29,7 @@ public:
         if (nextIndex == capacity)
         {
             T *newData = new T[2 * capacity];
-            for (int i; i < capacity; i++)
+            for (int i = 0; i < capacity; i++)
             {
                 newData[i] = data[i];
             }
