@@ -77,6 +77,15 @@ TreeNode<int> *takeInputLevel()
     return root;
 }
 
+int height(TreeNode<int> *root)
+{
+    if (root->children.size())
+    {
+        return 1 + height(root->children[0]);
+    }
+    return 1;
+}
+
 int num_nodes(TreeNode<int> *root)
 {
     int ans = 1;
@@ -87,14 +96,15 @@ int num_nodes(TreeNode<int> *root)
     return ans;
 }
 
-// int main()
-// {
-//     // TreeNode<int> *root = new TreeNode<int>(1);
-//     // TreeNode<int> *node1 = new TreeNode<int>(2);
-//     // TreeNode<int> *node2 = new TreeNode<int>(3);
+int main()
+{
+    //     // TreeNode<int> *root = new TreeNode<int>(1);
+    //     // TreeNode<int> *node1 = new TreeNode<int>(2);
+    //     // TreeNode<int> *node2 = new TreeNode<int>(3);
 
-//     // root->children.push_back(node1);
-//     // root->children.push_back(node2);
-//     TreeNode<int> *root = takeInputLevel();
-//     printTreeNew(root);
-// }
+    //     // root->children.push_back(node1);
+    //     // root->children.push_back(node2);
+    TreeNode<int> *root = takeInputLevel();
+    cout << height(root);
+    //     printTreeNew(root);
+}
