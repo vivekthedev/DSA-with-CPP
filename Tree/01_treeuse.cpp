@@ -2,6 +2,7 @@
 #include <iostream>
 #include <queue>
 #include "TreeNode.h"
+#include <algorithm>
 
 using namespace std;
 
@@ -79,11 +80,16 @@ TreeNode<int> *takeInputLevel()
 
 int height(TreeNode<int> *root)
 {
-    if (root->children.size())
+    int h = 1;
+    vector<int> heights;
+    heights.push_back(h);
+    for (int i = 0; i < root->children.size(); i++)
     {
-        return 1 + height(root->children[0]);
+        h = 1;
+        h = h + height(root->children[i]);
+        heights.push_back(h);
     }
-    return 1;
+    return *max_element(heights.begin(), heights.end());
 }
 
 int num_nodes(TreeNode<int> *root)
@@ -96,6 +102,61 @@ int num_nodes(TreeNode<int> *root)
     return ans;
 }
 
+void printAtLevelK(TreeNode<int> *root, int k)
+{
+    if (k == 0)
+    {
+        cout << root->data << endl;
+        return;
+    }
+    for (int i = 0; i < root->children.size(); i++)
+    {
+        printAtLevelK(root->children[i], k - 1);
+    }
+}
+
+int countLeafNode(TreeNode<int> *root)
+{
+    if (root->children.size() > 0)
+    {
+        return 1;
+    }
+    else
+    {
+        int ans = 0;
+        for (int i = 0; i < root->children.size(); i++)
+        {
+            ans = ans + countLeafNode(root->children[i]);
+        }
+    }
+}
+
+void preorderTraversal(TreeNode<int> *root)
+{
+    cout << root->data << " ";
+    for (int i = 0; i < root->children.size(); i++)
+    {
+        preorderTraversal(root->children[i]);
+    }
+}
+void postorderTraversal(TreeNode<int> *root)
+{
+    for (int i = 0; i < root->children.size(); i++)
+    {
+        postorderTraversal(root->children[i]);
+    }
+    cout << root->data << " ";
+}
+
+void deleteTree(TreeNode<int> *root)
+{
+    for (int i = 0; i < root->children.size(); i++)
+    {
+        deleteTree(root->children[i]);
+    }
+    delete root;
+}
+
 int main()
 {
     //     // TreeNode<int> *root = new TreeNode<int>(1);
@@ -105,6 +166,7 @@ int main()
     //     // root->children.push_back(node1);
     //     // root->children.push_back(node2);
     TreeNode<int> *root = takeInputLevel();
-    cout << height(root);
+    // cout << height(root);
+    // postorderTraversal(root);
     //     printTreeNew(root);
 }
