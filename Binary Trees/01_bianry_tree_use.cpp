@@ -118,31 +118,12 @@ int height(BinaryTreeNode<int> *root)
     }
     return 1 + getMax(l, r);
 }
-
-bool is_node_exists(BinaryTreeNode<int> *root, int data)
-{
-    if (root->data == data)
-    {
-        return true;
-    }
-    bool l = false, r = false;
-    if (root->left)
-    {
-        l = is_node_exists(root->left, data);
-    }
-    if (root->right)
-    {
-        r = is_node_exists(root->right, data);
-    }
-    return l || r;
-}
 // 1 2 3 4 5 6 7 -1 -1 -1 -1 8 9 -1 -1 -1 -1 -1 -1
 int main()
 {
     BinaryTreeNode<int> *root = takeInputLevel();
     // printTree(root);
-    // cout << height(root);
-    // cout << is_node_exists(root, 81);
+    cout << height(root);
     // cout << numNodes(root);
     // inorderTraversal(root);
 }
