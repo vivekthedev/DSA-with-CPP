@@ -119,11 +119,32 @@ int height(BinaryTreeNode<int> *root)
     return 1 + getMax(l, r);
 }
 // 1 2 3 4 5 6 7 -1 -1 -1 -1 8 9 -1 -1 -1 -1 -1 -1
+
+void preorderTraversal(BinaryTreeNode<int> *root)
+{
+    cout << root->data << " ";
+    if (root->left)
+        preorderTraversal(root->left);
+    if (root->right)
+        preorderTraversal(root->right);
+}
+
+void postorderTraversal(BinaryTreeNode<int> *root)
+{
+    if (root->left)
+        postorderTraversal(root->left);
+    if (root->right)
+        postorderTraversal(root->right);
+    cout << root->data << " ";
+}
 int main()
 {
     BinaryTreeNode<int> *root = takeInputLevel();
     // printTree(root);
-    cout << height(root);
+    preorderTraversal(root);
+    cout << "\n";
+    postorderTraversal(root);
+    // cout << height(root);
     // cout << numNodes(root);
     // inorderTraversal(root);
 }
