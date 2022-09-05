@@ -62,27 +62,19 @@ BinaryTreeNode<int> *takeInputLevel()
 }
 bool binary_search(BinaryTreeNode<int> *root, int data)
 {
-    bool ans = false;
     if (root == NULL)
     {
         return false;
     }
-    else if (root->data > data)
+    if (root->data == data)
     {
-        ans = binary_search(root->right, data);
+        return true;
     }
-    else if (root->data < data)
-    {
-        ans = binary_search(root->right, data);
-    }
-    else if (root->data == data)
-    {
-        ans = true;
-    }
+    bool ans = root->data > data ? binary_search(root->right, data) : binary_search(root->right, data);
     return ans;
 }
 int main()
 {
     BinaryTreeNode<int> *root = takeInputLevel();
-    cout << binary_search(root, 7);
+    cout << binary_search(root, 17);
 }
