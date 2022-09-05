@@ -99,24 +99,13 @@ void inorderTraversal(BinaryTreeNode<int> *root)
     inorderTraversal(root->right);
 }
 
-int getMax(int a, int b)
-{
-    return a > b ? a : b;
-}
-
 int height(BinaryTreeNode<int> *root)
 {
-    int l = 0, r = 0;
-    if (root->left)
+    if (root == NULL)
     {
-        l = height(root->left);
+        return 0;
     }
-
-    if (root->right)
-    {
-        r = height(root->right);
-    }
-    return 1 + getMax(l, r);
+    return 1 + max(height(root->left), height(root->right));
 }
 // 1 2 3 4 5 6 7 -1 -1 -1 -1 8 9 -1 -1 -1 -1 -1 -1
 
@@ -136,6 +125,41 @@ void postorderTraversal(BinaryTreeNode<int> *root)
     if (root->right)
         postorderTraversal(root->right);
     cout << root->data << " ";
+}
+
+int diameter(BinaryTreeNode<int> *root)
+{
+    if (root == NULL)
+    {
+        return 0;
+    }
+    int option1 = height(root->left) + height(root->right);
+    int option2 = diameter(root->left);
+    int option3 = diameter(root->right);
+    return max(option1, max(option2, option3));
+}
+pair<int, int> heightDiameter(BinaryTreeNode<int> *root)
+{
+    if (root == NULL)
+    {
+        pair<int, int> p;
+        p.first = 0;
+        p.second = 0;
+        return p;
+    }
+    pair<int, int> leftAns = heightDiameter(root->left);
+    pair<int, int> rightAns = heightDiameter(root->right);
+    int ld = leftAns.second;
+    int lh = leftAns.first;
+    int rd = rightAns.second;
+    int rh = rightAns.first;
+
+    int height = 1 + max(lh, rh);
+    int diameter = max(lh + rh, max(ld, rd));
+    pair<int, int> p;
+    p.first = height;
+    p.second = diameter;
+    return p;
 }
 int main()
 {
