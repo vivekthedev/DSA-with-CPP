@@ -114,10 +114,31 @@ bool check_bst(BinaryTreeNode<int> *root)
     return ans_l && ans_r;
 }
 
+BinaryTreeNode<int> *construct_bst(int arr[], int l, int u)
+{
+    if (l >= u)
+    {
+        int num = arr[l];
+        BinaryTreeNode<int> *root = new BinaryTreeNode<int>(num);
+        return root;
+    }
+    int m = (l + u) / 2;
+    int num = arr[m];
+    cout << num << endl;
+    BinaryTreeNode<int> *root = new BinaryTreeNode<int>(num);
+    root->left = construct_bst(arr, l, m - 1);
+    root->right = construct_bst(arr, m + 1, u);
+    return root;
+}
+
 int main()
 {
-    BinaryTreeNode<int> *root = takeInputLevel();
+    // BinaryTreeNode<int> *root = takeInputLevel();
     // cout << binary_search(root, 17);
     // printRange(root, 3, 8);
-    cout << check_bst(root);
+    // cout << check_bst(root);
+
+    int arr[] = {1, 2, 3, 4, 5, 6, 7};
+    BinaryTreeNode<int> *root = construct_bst(arr, 0, 6);
+    printTree(root);
 }
