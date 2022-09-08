@@ -88,9 +88,36 @@ void printRange(BinaryTreeNode<int> *root, int l, int u)
     printRange(root->right, l, u);
 }
 
+bool check_bst(BinaryTreeNode<int> *root)
+{
+    if (root == NULL)
+    {
+        return true;
+    }
+    if (root->left)
+    {
+        if (root->data < root->left->data)
+        {
+            return false;
+        }
+    }
+
+    if (root->right)
+    {
+        if (root->data > root->right->data)
+        {
+            return false;
+        }
+    }
+    bool ans_l = check_bst(root->left);
+    bool ans_r = check_bst(root->right);
+    return ans_l && ans_r;
+}
+
 int main()
 {
     BinaryTreeNode<int> *root = takeInputLevel();
     // cout << binary_search(root, 17);
-    printRange(root, 3, 8);
+    // printRange(root, 3, 8);
+    cout << check_bst(root);
 }
