@@ -73,8 +73,24 @@ bool binary_search(BinaryTreeNode<int> *root, int data)
     bool ans = root->data > data ? binary_search(root->right, data) : binary_search(root->right, data);
     return ans;
 }
+
+void printRange(BinaryTreeNode<int> *root, int l, int u)
+{
+    if (root == NULL)
+    {
+        return;
+    }
+    if (root->data >= l && root->data <= u)
+    {
+        cout << root->data << " ";
+    }
+    printRange(root->left, l, u);
+    printRange(root->right, l, u);
+}
+
 int main()
 {
     BinaryTreeNode<int> *root = takeInputLevel();
-    cout << binary_search(root, 17);
+    // cout << binary_search(root, 17);
+    printRange(root, 3, 8);
 }
