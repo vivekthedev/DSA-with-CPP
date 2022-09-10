@@ -88,5 +88,23 @@ The CPP file contains the questions as well as the solution.
 - [Even After Odd](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/13_EvenAfterOdd.cpp)
 - [Delete every N node](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/14_deleteEvery_n_node.cpp)
 - [Swap Nodes](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/15_swap_nodes.cpp)
+- [Delete Alternate Nodes]()
 
+### Trees
+- [Tree]()
+- [Sum of Elements]()
+- [Largest Data]()
+- [Contains Element]()
+- [Count Number of Nodes]()
+- [Maximum sum of child]()
+- [Similar Trees]()
+
+### Binary Trees
+- [Binary Trees]()
+- [Construct Tree]()
+- [Binary Search Tree]()
+- [Remove Leaf Nodes]()
+- [Nodes Without Siblings]()
+- [Sum of Nodes]()
+- [Duplicate Nodes]()
 ## Please feel free to add your changes to the repo
