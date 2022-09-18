@@ -32,7 +32,7 @@ public:
     }
     void insert(int data)
     {
-        }
+    }
     void deleteData(int data)
     {
     }
