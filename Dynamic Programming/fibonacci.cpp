@@ -12,7 +12,7 @@ int fibonacci(int num)
     return a + b;
 }
 
-int fibonacci_dp_helper(int n, int *ans)
+int fibonacci_mem_helper(int n, int *ans)
 {
     if (n <= 1)
     {
@@ -22,22 +22,34 @@ int fibonacci_dp_helper(int n, int *ans)
     {
         return ans[n];
     }
-    int a = fibonacci_dp_helper(n - 1, ans);
-    int b = fibonacci_dp_helper(n - 2, ans);
+    int a = fibonacci_mem_helper(n - 1, ans);
+    int b = fibonacci_mem_helper(n - 2, ans);
     ans[n] = a + b;
     return ans[n];
 }
 
-int fibonacci_dp(int n)
+int fibonacci_mem(int n)
 {
     int *ans = new int[n + 1];
     for (int i = 0; i <= n; i++)
     {
         ans[i] = -1;
     }
-    return fibonacci_dp_helper(n, ans);
+    return fibonacci_mem_helper(n, ans);
+}
+
+int fibo_3(int n)
+{
+    int *ans = new int[n + 1];
+    ans[0] = 0;
+    ans[1] = 1;
+    for (int i = 2; i <= n; i++)
+    {
+        ans[i] = ans[i - 1] + ans[i - 2];
+    }
+    return ans[n];
 }
 int main()
 {
-    cout << fibonacci_dp(6);
+    cout << fibonacci_mem(6);
 }
