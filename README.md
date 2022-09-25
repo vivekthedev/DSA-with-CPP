@@ -90,6 +90,17 @@ The CPP file contains the questions as well as the solution.
 - [Swap Nodes](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/15_swap_nodes.cpp)
 - [Delete Alternate Nodes](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Linked%20List/16_delete_alternate_node.cpp)
 
+### Stacks
+- [Stacks using array](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/01_stacks_using_array.cpp)
+- [Stacks using templates](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/02_stacks_using_templates.cpp)
+- [Stacks using Linked List](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/03_stack_using_LL.cpp)
+- [Balance Parenthesis](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/04_balance_paranthesis.cpp)
+- [Reverse Stack](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/05_reverse_stack.cpp)
+- [Stock Span](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/06_stock_span.cpp)
+- [Redundant Brackets](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/07_redundant_brackets.cpp)
+- [Adjust Brackets](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/08_adjust_brackets.cpp)
+
+
 ### Trees
 - [Tree](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Tree/01_treeuse.cpp)
 - [Sum of Elements](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Tree/02_sum_of_elemets.cpp)
@@ -107,4 +118,8 @@ The CPP file contains the questions as well as the solution.
 - [Nodes Without Siblings](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Binary%20Trees/05_nodes_without_sibling.cpp)
 - [Sum of Nodes](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Binary%20Trees/06_sum_of_nodes.cpp)
 - [Duplicate Nodes](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Binary%20Trees/08_duplicate_nodes.cpp)
+
+### Hashmaps
+
+### Priority Queues
 ## Please feel free to add your changes to the repo
