@@ -101,6 +101,13 @@ The CPP file contains the questions as well as the solution.
 - [Adjust Brackets](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Stacks/08_adjust_brackets.cpp)
 
 
+### Queues
+- [Queue using array](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Queues/01_queues_using_array.cpp)
+- [Queue using LL](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Queues/03_queue_using_LL.cpp)
+- [Dynamic Queue](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Queues/02_dynamic_queue.cpp)
+- [Reverse Queue](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Queues/04_reverse_queue.cpp)
+- [Doubly Ended Queue](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Queues/05_doubly_ended_queue.cpp)
+
 ### Trees
 - [Tree](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Tree/01_treeuse.cpp)
 - [Sum of Elements](https://github.com/vivekthedev/DSA-with-CPP/blob/main/Tree/02_sum_of_elemets.cpp)
