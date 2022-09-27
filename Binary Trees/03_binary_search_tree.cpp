@@ -1,6 +1,7 @@
 #include <iostream>
 #include <queue>
 #include "BinaryTree.h"
+#include <list>
 using namespace std;
 
 void printTree(BinaryTreeNode<int> *root)
@@ -131,14 +132,92 @@ BinaryTreeNode<int> *construct_bst(int arr[], int l, int u)
     return root;
 }
 
+class Node
+{
+public:
+    int data;
+    Node *next;
+    Node(int data)
+    {
+        this->data = data;
+        next = NULL;
+    }
+};
+
+pair<Node *, Node *> bst_to_LL(BinaryTreeNode<int> *root)
+{
+    /* Incomplete */
+    if (root == NULL)
+    {
+        pair<Node *, Node *> p;
+        p.first = NULL;
+        p.second = NULL;
+        return p;
+    }
+    Node *head = new Node(root->data);
+    cout << "created head for " << head->data << endl;
+
+    pair<Node *, Node *> left = bst_to_LL(root->left);
+
+    pair<Node *, Node *> right = bst_to_LL(root->right);
+
+    if (right.first != NULL)
+    {
+        // cout << "Attaching " << right.first->data << " to the next of " << head->data << endl;
+        head->next = right.first;
+    }
+    if (left.second != NULL)
+    {
+        // cout << "Attaching " << head->data << " to the next of " << left.second->data << endl;
+        left.second->next = head;
+        left.second = right.second;
+        // cout << "Now my left pair is (" << left.first->data << ", " << left.second->data << ")" << endl;
+    }
+    if (left.first == NULL && left.second == NULL)
+    {
+        left.first = head;
+        left.second = head;
+        // cout << "Now my left pair is (" << left.first->data << ", " << left.second->data << ")" << endl;
+    }
+
+    return left;
+}
+
+vector<int> *getRootToNodePath(BinaryTreeNode<int> *root, int data)
+{
+    if (root == NULL)
+    {
+        return NULL;
+    }
+    if (root->data == data)
+    {
+        vector<int> *output = new vector<int>();
+        output->push_back(root->data);
+        return output;
+    }
+    vector<int> *leftOutput = getRootToNodePath(root->left, data);
+    if (leftOutput != NULL)
+    {
+        leftOutput->push_back(root->data);
+        return leftOutput;
+    }
+    vector<int> *rightOutput = getRootToNodePath(root->right, data);
+    if (rightOutput != NULL)
+    {
+        rightOutput->push_back(root->data);
+        return rightOutput;
+    }
+    return NULL;
+}
+
 int main()
 {
-    // BinaryTreeNode<int> *root = takeInputLevel();
+    BinaryTreeNode<int> *root = takeInputLevel();
     // cout << binary_search(root, 17);
     // printRange(root, 3, 8);
     // cout << check_bst(root);
-
-    int arr[] = {1, 2, 3, 4, 5, 6, 7};
-    BinaryTreeNode<int> *root = construct_bst(arr, 0, 6);
-    printTree(root);
+    // int arr[] = {1, 2, 3, 4, 5, 6, 7};
+    // BinaryTreeNode<int> *root = construct_bst(arr, 0, 6);
+    // printTree(root);
+    // pair<Node *, Node *> p = bst_to_LL(root);
 }

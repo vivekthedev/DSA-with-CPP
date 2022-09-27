@@ -4,9 +4,9 @@ using namespace std;
 
 class Trie
 {
+public:
     TrieNode *root;
 
-public:
     Trie()
     {
         root = new TrieNode('\0');
@@ -52,6 +52,29 @@ public:
         {
             return false;
         }
+    }
+    bool searchPattern(TrieNode *root, string word)
+    {
+        if (word.size() == 0)
+        {
+            return true;
+        }
+        int index = word[0] - 'a';
+        TrieNode *child;
+
+        if (root->children[index] != NULL)
+        {
+            child = root->children[index];
+            return search(child, word.substr(1));
+        }
+        else
+        {
+            return false;
+        }
+    }
+    bool searchPatterW(string word)
+    {
+        return searchPattern(root, word);
     }
     bool searchW(string word)
     {
